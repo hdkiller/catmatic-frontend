@@ -41,8 +41,8 @@ module.exports = {
         contentTypes: [`jobs`, `projects`, `blogs`, `characters`, `locations`, `items`],
         singleTypes: [`about`],
         loginData: {
-          identifier: "${process.env.STRAPI_USERNAME}",
-          password: "${process.env.STRAPI_PASSWORD}",
+          identifier: `${process.env.STRAPI_USERNAME}`,
+          password: `${process.env.STRAPI_PASSWORD}`,
         },
       },
     },
